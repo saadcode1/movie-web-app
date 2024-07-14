@@ -1,0 +1,35 @@
+.card-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+}
+.root-div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
+}
+.info-div{
+    margin-left: 2vw;
+}
+.info-div p{
+    margin-top: 1vw;
+}
+
+.info-div h3{
+    margin-top: 1vw;
+}
+
+
+@media screen and (max-width: 800px) {
+    .root-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: center;
+    }
+    .info-div{
+        text-align: center;
+    }
+}
