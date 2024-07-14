@@ -79,8 +79,8 @@ export default function NavBar() {
     setMovie((prevData) => [...prevData,result])}
     get();
 
-  // log the updated state here
-  }, []); // dependency array: only log when movie state changes
+ 
+  }, []); 
 
   
   return (<>
